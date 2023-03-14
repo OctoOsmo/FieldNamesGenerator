@@ -18,6 +18,8 @@ This file will contain a static set named FIELD_NAMES that lists all of the fiel
 
 Here's an example of how to use this annotation processor:
 ```Java
+package com.example;
+
 import com.example.GenerateFieldNames;
 
 @GenerateFieldNames
