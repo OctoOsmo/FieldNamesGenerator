@@ -10,7 +10,7 @@ To use this annotation processor in your project, follow these steps:
 * Create a new class and annotate it with @GenerateFieldNames.
 * Build your project.
 
-After building your project, a new file named {ClassName}FieldNames will be generated for each class annotated with @FieldName. 
+After building your project, a new file named {ClassName}FieldNames will be generated for each class annotated with @GenerateFieldNames. 
 
 This file will contain a static set named FIELD_NAMES that lists all of the field names for the annotated class.
 
@@ -18,7 +18,7 @@ This file will contain a static set named FIELD_NAMES that lists all of the fiel
 
 Here's an example of how to use this annotation processor:
 ```Java
-import com.example.FieldName;
+import com.example.GenerateFieldNames;
 
 @GenerateFieldNames
 public class ExampleClass {
