@@ -1,6 +1,6 @@
 ## FieldNamesGenerator
 
-This project provides a Kotlin/Java annotation processor that generates a static list of field names for annotated classes.
+This project provides a Java annotation processor that generates a static list of field names for annotated classes.
 
 ### Usage
 
