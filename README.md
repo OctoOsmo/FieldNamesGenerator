@@ -1,12 +1,12 @@
 ## FieldNamesGenerator
 
-This project provides a Java annotation processor that generates a static list of field names for annotated classes.
+This project provides a Java annotation processor that generates static list of field names for annotated classes.
 
 ### Usage
 
 To use this annotation processor in your project, follow these steps:
 
-* Add the org.octoosmo:FieldNamesGenerator dependency to your build file. If you use gradle include it both as an implementation and as annotationProcessor
+* Add the org.octoosmo:FieldNamesGenerator dependency to your build file. If you use gradle include it both as an implementation and as annotationProcessor.
 * Create a new class and annotate it with @GenerateFieldNames.
 * Build your project.
 
